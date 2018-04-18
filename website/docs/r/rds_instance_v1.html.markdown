@@ -14,7 +14,7 @@ Manages rds instance resource within FlexibleEngine
 
 ```hcl
 data "flexibleengine_rds_flavors_v1" "flavor" {
-    region = "eu-de"
+    region = "eu-west-0"
     datastore_name = "PostgreSQL"
     datastore_version = "9.5.5"
     speccode = "rds.pg.s1.large"
@@ -36,8 +36,8 @@ resource "flexibleengine_rds_instance_v1" "instance" {
     type = "COMMON"
     size = 200
   }
-  region = "eu-de"
-  availabilityzone = "eu-de-01"
+  region = "eu-west-0"
+  availabilityzone = "eu-west-0a"
   vpc = "c1095fe7-03df-4205-ad2d-6f4c181d436e"
   nics {
     subnetid = "b65f8d25-c533-47e2-8601-cfaa265a3e3e"
@@ -62,7 +62,7 @@ resource "flexibleengine_rds_instance_v1" "instance" {
 ## Example Usage:  Creating a SQLServer RDS instance
 ```hcl
 data "flexibleengine_rds_flavors_v1" "flavor" {
-    region = "eu-de"
+    region = "eu-west-0"
     datastore_name = "SQLServer"
     datastore_version = "2014 SP2 SE"
     speccode = "rds.mssql.s1.2xlarge"
@@ -84,8 +84,8 @@ resource "flexibleengine_rds_instance_v1" "instance" {
     type = "COMMON"
     size = 200
   }
-  region = "eu-de"
-  availabilityzone = "eu-de-01"
+  region = "eu-west-0"
+  availabilityzone = "eu-west-0a"
   vpc = "c1095fe7-03df-4205-ad2d-6f4c181d436e"
   nics {
     subnetid = "b65f8d25-c533-47e2-8601-cfaa265a3e3e"
@@ -106,7 +106,7 @@ resource "flexibleengine_rds_instance_v1" "instance" {
 ## Example Usage:  Creating a MySQL RDS instance
 ```hcl
 data "flexibleengine_rds_flavors_v1" "flavor" {
-    region = "eu-de"
+    region = "eu-west-0"
     datastore_name = "MySQL"
     datastore_version = "5.6.33"
     speccode = "rds.mysql.s1.medium"
@@ -128,8 +128,8 @@ resource "flexibleengine_rds_instance_v1" "instance" {
     type = "COMMON"
     size = 200
   }
-  region = "eu-de"
-  availabilityzone = "eu-de-01"
+  region = "eu-west-0"
+  availabilityzone = "eu-west-0a"
   vpc = "c1095fe7-03df-4205-ad2d-6f4c181d436e"
   nics {
     subnetid = "b65f8d25-c533-47e2-8601-cfaa265a3e3e"
