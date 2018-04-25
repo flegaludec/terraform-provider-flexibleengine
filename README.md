@@ -17,6 +17,7 @@ and added some enhancements to interact with the many resources supported by Fle
 - **autoscaling**: auto scaling service
 - **obs**: object storage service
 - **elb**: elastic load balance service
+- **drs**: disaster recovery service
 
 Requirements
 ------------

@@ -830,6 +830,18 @@
 			"revisionTime": "2018-01-31T09:43:40Z"
 		},
 		{
+			"checksumSHA1": "2xE1DeuPjSxJ6evteVN8zVTvqf8=",
+			"path": "github.com/huawei-clouds/golangsdk/openstack/drs/v2/replicationconsistencygroups",
+			"revision": "6c216c0dcd5ac8138897f0a14b1b1f1004394dfd",
+			"revisionTime": "2018-03-08T08:40:13Z"
+		},
+		{
+			"checksumSHA1": "/5Rq4385zQ74MDeW3WG1Gz6GR9k=",
+			"path": "github.com/huawei-clouds/golangsdk/openstack/drs/v2/replications",
+			"revision": "0370d243816a9de69075348afb3161b66105d90f",
+			"revisionTime": "2018-03-07T03:17:28Z"
+		},
+		{
 			"checksumSHA1": "jQ3udqIyPpRbCZenSKpJBoRxf5c=",
 			"path": "github.com/huawei-clouds/golangsdk/openstack/identity/v2/tenants",
 			"revision": "f89ec8ecd5baa5abfc28f98720e628b06252bff4",
